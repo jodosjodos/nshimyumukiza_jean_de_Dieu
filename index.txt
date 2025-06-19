@@ -1,0 +1,10 @@
+✅ NGINX Reverse Proxy Status
+
+- The web server at http://localhost is now running through NGINX.
+- This is the same as accessing http://localhost:80 because port 80 is the default HTTP port.
+- NGINX is configured to listen on port 80 and act as a reverse proxy.
+- Requests to http://localhost are forwarded to the backend Express.js server running on port 3000.
+- Apache2 has been disabled to avoid conflicts with NGINX.
+- Everything is working as expected!
+
+Accessing: http://localhost → (NGINX port 80) → http://localhost:3000 (Express.js)
